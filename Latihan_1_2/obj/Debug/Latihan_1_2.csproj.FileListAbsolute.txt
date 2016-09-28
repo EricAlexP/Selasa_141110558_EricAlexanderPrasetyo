@@ -1,0 +1,9 @@
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\bin\Debug\Latihan_1_2.exe.config
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.Form1.resources
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.Properties.Resources.resources
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.csproj.GenerateResource.Cache
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\bin\Debug\Latihan_1_2.exe
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\bin\Debug\Latihan_1_2.pdb
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.exe
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.pdb
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_1_2\obj\Debug\Latihan_1_2.csprojResolveAssemblyReference.cache
