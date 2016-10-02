@@ -37,21 +37,26 @@
             // 
             // vScrollBar1
             // 
+            this.vScrollBar1.LargeChange = 1;
             this.vScrollBar1.Location = new System.Drawing.Point(54, 59);
-            this.vScrollBar1.Maximum = 20;
+            this.vScrollBar1.Maximum = 10;
+            this.vScrollBar1.Minimum = 1;
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 80);
             this.vScrollBar1.TabIndex = 0;
+            this.vScrollBar1.Value = 1;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
             // 
             // vScrollBar2
             // 
+            this.vScrollBar2.LargeChange = 1;
             this.vScrollBar2.Location = new System.Drawing.Point(285, 59);
-            this.vScrollBar2.Maximum = 20;
+            this.vScrollBar2.Maximum = 10;
+            this.vScrollBar2.Minimum = 1;
             this.vScrollBar2.Name = "vScrollBar2";
             this.vScrollBar2.Size = new System.Drawing.Size(17, 80);
             this.vScrollBar2.TabIndex = 1;
-            this.vScrollBar2.Value = 1;
+            this.vScrollBar2.Value = 10;
             this.vScrollBar2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar2_Scroll);
             // 
             // dateTimePicker1
@@ -61,6 +66,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(82, 20);
             this.dateTimePicker1.TabIndex = 2;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label1
             // 
