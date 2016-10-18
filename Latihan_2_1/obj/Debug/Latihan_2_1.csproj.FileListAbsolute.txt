@@ -6,3 +6,4 @@ D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latih
 D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_2_1\obj\Debug\Latihan_2_1.csproj.GenerateResource.Cache
 D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_2_1\obj\Debug\Latihan_2_1.exe
 D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_2_1\obj\Debug\Latihan_2_1.pdb
+D:\Mikroskil\Framework.Net Lanjutan\Selasa_141110558_EricAlexanderPrasetyo\Latihan_2_1\obj\Debug\Latihan_2_1.csprojResolveAssemblyReference.cache
