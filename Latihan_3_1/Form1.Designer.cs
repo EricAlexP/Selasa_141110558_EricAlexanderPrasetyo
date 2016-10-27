@@ -33,7 +33,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.RT = new System.Windows.Forms.RichTextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -88,13 +88,14 @@
             this.comboBox2.TabIndex = 4;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // richTextBox1
+            // RT
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 42);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(472, 255);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.RT.Location = new System.Drawing.Point(12, 42);
+            this.RT.Name = "RT";
+            this.RT.Size = new System.Drawing.Size(391, 255);
+            this.RT.TabIndex = 5;
+            this.RT.Text = "";
+            this.RT.TextChanged += new System.EventHandler(this.RT_TextChanged);
             // 
             // comboBox3
             // 
@@ -109,9 +110,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 309);
+            this.ClientSize = new System.Drawing.Size(415, 309);
             this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.RT);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
@@ -131,7 +132,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox RT;
         private System.Windows.Forms.ComboBox comboBox3;
     }
 }

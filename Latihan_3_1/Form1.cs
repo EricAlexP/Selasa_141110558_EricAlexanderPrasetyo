@@ -31,51 +31,48 @@ namespace Latihan_3_1
                 comboBox1.Items.Add(oneFontFamily.Name);
             }
 
-            comboBox1.Text = this.richTextBox1.Font.Name.ToString();
-            comboBox2.Text = this.richTextBox1.Font.Size.ToString();
+            comboBox1.Text = this.RT.Font.Name.ToString();
+            comboBox2.Text = this.RT.Font.Size.ToString();
 
-            richTextBox1.Focus();
+            RT.Focus();
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             float size = Convert.ToSingle(((ComboBox)sender).Text);
 
-            richTextBox1.SelectionFont = new Font(richTextBox1.Font.FontFamily, size);
+            RT.SelectionFont = new Font(RT.Font.FontFamily, size);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.SelectionFont.Bold == true)
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold | FontStyle.Italic);
-            }
-            else
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold);
-            }
+            Font SelectedText_Font = RT.SelectionFont;
+            if (SelectedText_Font != null)
+                RT.SelectionFont = new Font(SelectedText_Font, SelectedText_Font.Style ^ FontStyle.Bold);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.SelectionFont.Bold == true)
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold | FontStyle.Italic);
-            }
-            else
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Italic);
-            }
+            Font SelectedText_Font = RT.SelectionFont;
+            if (SelectedText_Font != null)
+                RT.SelectionFont = new Font(SelectedText_Font, SelectedText_Font.Style ^ FontStyle.Italic);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Underline);
+            Font SelectedText_Font = RT.SelectionFont;
+            if (SelectedText_Font != null)
+                RT.SelectionFont = new Font(SelectedText_Font, SelectedText_Font.Style ^ FontStyle.Underline);
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void RT_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
