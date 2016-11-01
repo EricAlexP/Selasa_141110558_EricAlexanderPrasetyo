@@ -12,14 +12,40 @@ namespace Latihan_4_1
 {
     public partial class Form1 : Form
     {
+        private bool txtchange;
         public Form1()
         {
             InitializeComponent();
+            txtchange = false;
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (txtchange)
+            {
+                SaveFileDialog save = new SaveFileDialog();
+                save.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*|Rich Textbox Format (*.rtf)|*.rtf";
+                save.FilterIndex = 3;
+                save.RestoreDirectory = true;
 
+                DialogResult result = MessageBox.Show("Save changes ?", "My Application", MessageBoxButtons.YesNoCancel);
+                if (result == DialogResult.Yes)
+                {
+                    if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK && save.FileName.Length > 0)
+                    {
+                        RT.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
+                    }
+                    RT.Clear();
+                }
+                else if (result == DialogResult.No)
+                {
+                    RT.Clear();
+                }
+            }
+            else
+            {
+                RT.Clear();
+            }
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
